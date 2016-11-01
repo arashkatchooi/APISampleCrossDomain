@@ -34,60 +34,57 @@ format: "json"
 },
 function(data) {
 $.each(data.items, function(i,item){
-$("<img/>").attr("src", item.media.m).appendTo("#images");
-if ( i == 1 ) return false;
+    if (i == 1) return false;
+    $("<img/>").attr("src", item.media.m).appendTo("#images");
+
 });
 });
     
 $(document).ready(function () {
 
-    $("#success").click(function () {
-
-        //$.ajax({
-        //    url: "http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-2.json",
-        //    dataType: "jsonp"
-        //}, function jsonCallback(json) {
-        //    console.log(json);
-        //});
-
-
-        $.ajax({
-            url: "http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json",
-            dataType: 'jsonp',
-            success: function (dataWeGotViaJsonp) {
-                var text = '';
-                var len = dataWeGotViaJsonp.length;
-                for (var i = 0; i < len; i++) {
-                    twitterEntry = dataWeGotViaJsonp[i];
-                    text += '<p><img src = "' + twitterEntry.user.profile_image_url_https + '"/>' + twitterEntry['text'] + '</p>'
-                }
-                $('#twitterFeed').html(text);
-            }
-        });
-
-        //$.ajax({
-        //    url: "demo_test.txt", success: function (result) {
-        //        $("#div1").html(result);
-        //    }
-        //});
+    //$.ajax({
+    //    url: 'http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json',
+    //    dataType: 'Get',
+    //    success: function (dataWeGotViaJsonp) {
+    //        var text = '';
+    //        var len = dataWeGotViaJsonp.length;
+    //        //for (var i = 0; i < len; i++) {
+    //        //    twitterEntry = dataWeGotViaJsonp[i];
+    //        //    text += '<p><img src = "' + twitterEntry.user.profile_image_url_https + '"/>' + twitterEntry['text'] + '</p>'
+    //        //}
+    //        //$('#twitterFeed').text(dataWeGotViaJsonp);
+    //    }
 
 
-        //$.ajax({
-        //    url: "http://twitter.com/status/user_timeline/padraicb.json?count=10",
-        //    context: document.body
-        //}).done(function () {
-        //    $(this).addClass("done");
-        //});
+    //});
 
-    })
+    $("#success").click(function getData() {  
+     
 
-    $("#failure").click(function () {
+    }
+    );
 
-        //$.getJSON("http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json", function (data) {
-        //    console.log(data);
-        //})
+    //$("#failure").click(function () {
 
-    })
+    //    //$.getJSON("http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json", function (data) {
+    //    //    console.log(data);
+    //    //})
+
+    //});
+
+    //$.ajax({
+    //    url: "demo_test.txt", success: function (result) {
+    //        $("#div1").html(result);
+    //    }
+    //});
+
+
+    //$.ajax({
+    //    url: "http://twitter.com/status/user_timeline/padraicb.json?count=10",
+    //    context: document.body
+    //}).done(function () {
+    //    $(this).addClass("done");
+    //});
 
 
 });
