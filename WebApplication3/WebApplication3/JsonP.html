@@ -42,24 +42,38 @@ $.each(data.items, function(i,item){
     
 $(document).ready(function () {
 
-    //$.ajax({
-    //    url: 'http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-1.json',
-    //    dataType: 'Get',
-    //    success: function (dataWeGotViaJsonp) {
-    //        var text = '';
-    //        var len = dataWeGotViaJsonp.length;
-    //        //for (var i = 0; i < len; i++) {
-    //        //    twitterEntry = dataWeGotViaJsonp[i];
-    //        //    text += '<p><img src = "' + twitterEntry.user.profile_image_url_https + '"/>' + twitterEntry['text'] + '</p>'
-    //        //}
-    //        //$('#twitterFeed').text(dataWeGotViaJsonp);
-    //    }
-
-
-    //});
-
+   
     $("#success").click(function getData() {  
      
+        var url = "https://jsonplaceholder.typicode.com/posts/1";
+        $.ajax({
+            type: 'GET',
+            url: url,
+            data: { todo: "jsonp" },
+            dataType: "jsonp",
+            crossDomain: true,
+            cache: false,
+            success: success,
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert(errorThrown);
+            }
+        }).then(function (data) {
+            console.log(data);
+        });;
+
+        var success = function (data) {
+            var html = [];
+            ///* parse JSON */
+            data = $.parseJSON(data);
+            ///* loop through array */
+            //$.each(data, function (index, d) {
+            //    html.push("Manufacturer : ", d.Manufacturer, ", ",
+            //              "Sold : ", d.Sold, ", ",
+            //              "Month : ", d.Month, "<br>");
+            //});
+
+            $("#twitterFeed").html(html.join('')).css("background-color", "orange");
+        };
 
     }
     );
