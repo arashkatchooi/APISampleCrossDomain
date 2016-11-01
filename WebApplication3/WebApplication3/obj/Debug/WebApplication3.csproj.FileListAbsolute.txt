@@ -1,0 +1,66 @@
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\ApplicationInsights.config
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\csc.exe
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\vbc.exe
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.Web.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.Web.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+c:\users\v-arkatc\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\ApplicationInsights.config
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\csc.exe
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\vbc.exe
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\WebApplication3.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.Web.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.Web.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Projects\samples\ng1\W3School\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb

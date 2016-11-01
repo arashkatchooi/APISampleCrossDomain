@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+
+$(document).ready(function () {
+    $("p").click(function () {
+        $(this).hide();
+    });
+
+    $("p").mouseenter(
+            function(){
+                $(this).css("background-color", "lightblue");
+
+            }
+        );
+
+
+    $("#panel").slideDown("slow");
+
+});
+
+
+        
+
+//$(document).ready(function(){
+//    $("p").click(function(){
+//        $(this).hide();
+//    });
+//});
+    </script>
+
+    <style>
+
+body, html {
+height: 50%;
+}
+
+        
+div.mainLayout {
+    float: left;
+    width: 50%;
+}
+
+div.clearFlt {
+    clear: both;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 20px;
+    display: none;
+}
+    
+    </style>
+</head>
+<body style="height:100%">
+    <div style="width:100%; height: 25%; border: 2px dashed red">header</div>
+    <div id="panel" style="width:100%; height: 50%; border: 2px dashed red">
+        Content
+    </div>
+    <div style="width:100%; height: 25%; border: 2px dashed red">Footer</div>
+</body>
+</html>
