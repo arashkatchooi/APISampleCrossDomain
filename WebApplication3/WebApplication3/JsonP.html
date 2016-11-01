@@ -45,7 +45,7 @@ $(document).ready(function () {
    
     $("#success").click(function getData() {  
      
-        var url = "api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=806e3a7f5165f4d706f37ad0ceacab47";
+        var url = "http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=806e3a7f5165f4d706f37ad0ceacab47";
         $.ajax({
             type: 'GET',
             url: url,
