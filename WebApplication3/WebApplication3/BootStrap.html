@@ -17,7 +17,7 @@
         function(data) {
         $.each(data.items, function(i,item){
             if (i == 2) return false;
-            $("<img/>").attr("src", item.media.m).appendTo("#images");
+            $("<img class='img-responsive' alt='Cinque Terre' width='304' height='236'/>").attr("src", item.media.m).appendTo("#images");
 
         });
         });
@@ -68,11 +68,6 @@
 
     </script>
     <style>
-        img {
-            height: 200px;
-            float: right;
-        }
-
         .done {
 
             background-color:green;
