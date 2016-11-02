@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+        {
+        tags: "dogs",
+        tagmode: "any",
+        format: "json"
+        },
+        function(data) {
+        $.each(data.items, function(i,item){
+            if (i == 2) return false;
+            $("<img/>").attr("src", item.media.m).appendTo("#images");
+
+        });
+        });
+
+        $(document).ready(function () {
+
+
+            $("#success").click(function getData() {
+
+                var url = "http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=806e3a7f5165f4d706f37ad0ceacab47";
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    data: { todo: "jsonp" },
+                    dataType: "jsonp",
+                    crossDomain: true,
+                    cache: false,
+                    success: success,
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        alert(errorThrown);
+                    }
+                }).then(function (data) {
+                    console.log(data);
+                }).always(function (data) {
+                    console.log(data);
+                }).fail(function (data) {
+                    console.log(data);
+                });;
+
+                var success = function (data) {
+                    var html = [];
+                    ///* parse JSON */
+                    data = $.parseJSON(data);
+                    ///* loop through array */
+                    //$.each(data, function (index, d) {
+                    //    html.push("Manufacturer : ", d.Manufacturer, ", ",
+                    //              "Sold : ", d.Sold, ", ",
+                    //              "Month : ", d.Month, "<br>");
+                    //});
+
+                   // $("#twitterFeed").html(html.join('')).css("background-color", "orange");
+                };
+
+            }
+            );
+
+        });
+
+    </script>
+    <style>
+        img {
+            height: 200px;
+            float: right;
+        }
+
+        .done {
+
+            background-color:green;
+        }
+
+    </style>
+    <title> Bootstrap Practice</title>
+</head>
+<body>
+    <p class="text-danger"> this is bootstrap test</p>
+    <div id="images"></div>
+    <div id="twitterFeed" />
+    <button id="success"> get all data</button>
+
+</body>
+</html> 

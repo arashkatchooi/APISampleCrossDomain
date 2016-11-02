@@ -95,6 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BootStrap.html" />
     <Content Include="JsonP.html" />
     <Content Include="JqueyApi.html" />
     <Content Include="index2.html" />
