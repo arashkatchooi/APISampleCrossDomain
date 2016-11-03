@@ -1,0 +1,57 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").load("demo_test.txt");
+    });
+});
+
+</script>
+<style>
+    body, html {
+        height: 100%;
+    }
+
+    div.mainLayout {
+        float: left;
+        width: 100%;
+    }
+
+    div.clearFlt {
+        clear: both;
+    }
+
+
+</style>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div style="width:100%; height: 25%; border: 2px dashed red">header
+
+      <div class="jumbotron text-center">
+        <h1>My Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+
+        <ul class="nav nav-tabs>">
+          <li class="active">
+            <a href="#">Menu 1</a>
+            <button type="button" class="btn btn-primary">start Here</button>
+          </li>
+          <li>
+            <a href="#">Menu 2</a>
+            <button type="button" class="btn btn-danger">start Here</button>
+           </li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="width:100%; height: 50%; border: 2px dashed red">Content
+    </div>
+    <div style="width:100%; height: 25%; border: 2px dashed red">Footer</div>
+</body>
+</html>
